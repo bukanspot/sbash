@@ -8,3 +8,6 @@ Tema emotikon pada terminal linux
 # command
 $ cd "download folder"<br>
 $ cp .bashrc ~
+<br><br>
+# view
+![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/debian-wsl.png)
