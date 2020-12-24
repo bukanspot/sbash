@@ -10,6 +10,6 @@ Tema emotikon pada terminal linux
 $ cd "download folder"<br>
 $ cp .bashrc ~
 ```
-<br><br>
+<br>
 # tampilan
 ![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/debian-wsl.png)
