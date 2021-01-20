@@ -8,11 +8,10 @@ Tema emotikon pada terminal linux
 # command
 ```
 $ cd "download folder"
+$ mv <file> .bashrc
 $ cp .bashrc ~
 ```
 
 # tampilan
 ### Terminal pada PopOS
 ![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
-### Terminal pada WSL Windows
-![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/debian-wsl.png)
