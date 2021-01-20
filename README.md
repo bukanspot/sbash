@@ -13,6 +13,6 @@ $ cp .bashrc ~
 
 # tampilan
 ### Terminal pada PopOS
-![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
+![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/basic/terminal-gnome.png)
 ### Terminal pada WSL Windows
-![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/debian-wsl.png)
+![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/basic/debian-wsl.png)
