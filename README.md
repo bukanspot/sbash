@@ -14,4 +14,4 @@ $ cp .bashrc ~
 
 # tampilan
 ### Terminal pada PopOS
-![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
+![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/two_line/terminal-gnome.png)
