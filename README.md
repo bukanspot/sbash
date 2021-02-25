@@ -5,13 +5,13 @@ Tema emotikon pada terminal linux
 <i>hanya mengganti file .bashrc di direktori home dengan file .bashrc baru</i><br>
 <i>Buka file dengan file editor dan ganti emotikon sesuai selera anda</i><br>
 
-# command
+# Command
 ```
 $ cd "download folder"
 $ mv <file> .bashrc
 $ cp .bashrc ~
 ```
 
-# tampilan
-### Terminal pada PopOS
+# Tampilan
+### Terminal pada Linux PopOS
 ![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
