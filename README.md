@@ -7,9 +7,8 @@ Tema emotikon pada terminal linux
 
 # Command
 ```
-$ cd "download folder"
-$ mv <file> .bashrc
-$ cp .bashrc ~
+$ cd ~/Downloads/.bashrc
+$ mv .bashrc ~
 ```
 
 # Tampilan
