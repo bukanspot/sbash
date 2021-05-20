@@ -7,8 +7,12 @@ Tema emotikon pada terminal linux
 
 # Command
 ```
-$ cd ~/Downloads/.bashrc
-$ mv .bashrc ~
+$ cd ~
+$ git clone https://github.com/bukanspot/bashrc.git
+$ cd ~/bashrc
+$ cp .bashrc ~
+$ rm -r ~/bashrc/*
+$ exec bash -l
 ```
 
 # Tampilan
