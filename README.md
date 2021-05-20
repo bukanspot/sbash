@@ -11,7 +11,8 @@ cd ~
 git clone https://github.com/bukanspot/bashrc.git
 cd ~/bashrc
 cp .bashrc ~
-rm -r ~/bashrc/*
+sudo rm -r ~/bashrc
+cd ~
 exec bash -l
 ```
 
