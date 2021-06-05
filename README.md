@@ -5,7 +5,6 @@ Tema emotikon pada terminal linux
 <i>hanya mengganti file .bashrc di direktori home dengan file .bashrc baru</i><br>
 <i>Buka file dengan file editor dan ganti emotikon sesuai selera anda</i><br>
 
-# Command
 ```
 cd ~
 git clone https://github.com/bukanspot/bashrc.git
@@ -17,5 +16,4 @@ exec bash -l
 ```
 
 # Tampilan
-### Terminal pada Linux PopOS
 ![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
