@@ -1,18 +1,18 @@
 # .bashrc
-Tema emotikon pada terminal linux
+Tema emotikon pada terminal linux 
 <br>
 # Instalasi
-<i>hanya mengganti file .bashrc di direktori home dengan file .bashrc baru</i><br>
-<i>Buka file dengan file editor dan ganti emotikon sesuai selera anda</i><br>
-
+*Hanya mengganti file `.bashrc` di direktori home dengan file `.bashrc` baru*<br>
 ```
-cd ~
+cd ~/Downloads
 git clone https://github.com/bukanspot/bashrc.git
-cd ~/bashrc
-cp .bashrc ~
-sudo rm -r ~/bashrc
-cd ~
+cp bashrc/.bashrc ~
+sudo rm -r bashrc/
 exec bash -l
+```
+Buka file `.bashrc` dengan file editor dan ganti emotikon sesuai seleramu<br>
+```
+nano ~/.bashrc
 ```
 
 # Tampilan
