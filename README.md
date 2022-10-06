@@ -14,6 +14,10 @@ Buka file `.bashrc` dengan file editor dan ganti emotikon sesuai seleramu<br>
 ```
 nano ~/.bashrc
 ```
+atau menggunakan vim
+```
+vi ~/.bashrc
+```
 
 # Tampilan
 ![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
