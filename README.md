@@ -1,19 +1,17 @@
 # .bashrc
-Tema emotikon pada terminal linux 
+Tema emotikon pada terminal linux
 <br>
 # Instalasi
-*Hanya mengganti file `.bashrc` di direktori home dengan file `.bashrc` baru*<br>
+<i>hanya mengganti file .bashrc di direktori home dengan file .bashrc baru</i><br>
+<i>Buka file dengan file editor dan ganti emotikon sesuai selera anda</i><br>
+
+# command
 ```
-cd ~/Downloads
-git clone https://github.com/bukanspot/bashrc.git
-cp bashrc/.bashrc ~
-sudo rm -r bashrc/
-exec bash -l
-```
-Buka file `.bashrc` dengan file editor dan ganti emotikon sesuai seleramu<br>
-```
-nano ~/.bashrc
+$ cd "download folder"
+$ mv <file> .bashrc
+$ cp .bashrc ~
 ```
 
-# Tampilan
-![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/terminal-gnome.png)
+# tampilan
+### Terminal pada PopOS
+![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/two_line/terminal-gnome.png)

@@ -1,0 +1,4 @@
+# git
+alias git-s="git status"
+alias git-c="git commit -m"
+alias git-l="git log --oneline"
