@@ -3,7 +3,7 @@ Custom alias and emoticon linux terminal
 
 ### Installation
 *Just replace `.bashrc`*.
-copy and paste all off this code:
+You can copy and paste all off this code:
 
 ```
 cd ~
