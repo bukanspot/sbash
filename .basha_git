@@ -1,4 +1,13 @@
 # git
-alias git-s="git status"
-alias git-c="git commit -m"
-alias git-l="git log --oneline"
+alias gits="git status"
+alias gitc="git commit -m"
+alias gitl="git log --oneline"
+
+gitm() { git switch "$1" && git pull "$2" "$3" && git push "$2" "$1" && git switch "$3"; }
+
+#until [ "$PWD" = "/" ]; do
+#  echo "$PWD"
+#  ls && cd .. && ls 
+#done
+
+#test() { "$BRANCH" = "git branch" && echo "$BRANCH"; }
