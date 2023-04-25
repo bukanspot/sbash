@@ -19,7 +19,10 @@ nano ~/bash/emoticon
 
 To edit alias edit file in `basha`. For example:
 ```
-nano ~/bash/basha/.basha_short
+cd ~/bash/basha/ && ls -l
+```
+```
+nano .basha_short
 ```
 
 ## Alias
