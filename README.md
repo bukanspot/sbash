@@ -1,16 +1,27 @@
 # .bashrc
-Tema emotikon pada terminal linux 
-<br>
-# Instalasi
-*Hanya mengganti file `.bashrc` di direktori home dengan file `.bashrc` baru*<br>
+Custom alias and emoticon linux terminal
+
+### Installation
+*Just replace `.bashrc`*.
+copy and paste all off this code:
+
 ```
 cd ~
 git clone https://github.com/bukanspot/bashrc.git
-cp bashrc/.bashrc ~
-cp bashrc/.bash_aliases ~
+cp bash/basha/.basha_secret.example bash/basha/.basha_secret
+cp bash/build/.bashrc ~
 exec bash -l
 ```
-Buka file `.bashrc` dengan file editor dan ganti emotikon sesuai seleramu<br>
+To change emoticon, you can edit file in `emoticon`. For example:
 
-# Tampilan
+```
+nano ~/bash/emoticon
+```
+
+To edit alias edit file in `basha`. For example:
+```
+nano ~/bash/basha/.basha_short
+```
+
+### Display
 ![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/img/terminal-gnome.png)
