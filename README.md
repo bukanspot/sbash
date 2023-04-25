@@ -24,4 +24,4 @@ nano ~/bash/basha/.basha_short
 ```
 
 ### Display
-![deian on wsl](https://raw.githubusercontent.com/bukanspot/.bashrc/main/img/terminal-gnome.png)
+![deian on wsl](https://raw.githubusercontent.com/bukanspot/bashrc/dev/img/terminal-gnome.png)
