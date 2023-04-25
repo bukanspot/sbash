@@ -31,7 +31,7 @@ nano .basha_short
 - mvl `dir_name` = "mv `dir_name` && ls -l"
 
 ### Git
-- gitm `branch_master` `remote` `branch_dev` = "git switch `branch_master` && git pull `remote` `branch_dev` && git push `remote` `branch_master` && git switch `branch_dev`"
+- gitm `branch_master` `branch_dev` `remote` = "git switch `branch_master` && git merge `branch_dev` && git push `remote` `branch_master` && git switch `branch_dev`"
 - gits="git status"
 - gitc="git commit -m"
 - gitl="git log --oneline"
