@@ -6,11 +6,10 @@ Custom alias and emoticon linux terminal
 You can copy and paste all off this code:
 
 ```
-cd ~
-git clone https://github.com/bukanspot/bashrc.git
-cp bash/basha/.basha_secret.example bash/basha/.basha_secret
-cp bash/build/.bashrc ~
-exec bash -l
+cd ~ && git clone https://github.com/bukanspot/bashrc.git
+```
+```
+cp bash/build/.basha_secret.example bash/basha/.basha_secret && cp bash/build/.bashrc ~ && exec bash -l
 ```
 To change emoticon, you can edit file in `emoticon`. For example:
 
