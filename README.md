@@ -38,9 +38,9 @@ In Linux, an alias is a shortcut that references a command. An alias replaces a 
 
 ## Git
 - gitm `branch_master` `branch_dev` `remote` = "git switch `branch_master` && git merge `branch_dev` && git push `remote` `branch_master` && git switch `branch_dev`"
-- gits="git status"
-- gitc="git commit -m"
-- gitl="git log --oneline"
+- gits = "git status"
+- gitc = "git commit -m"
+- gitl = "git log --oneline"
 
 ## C Language
 - cmpl = "gcc src/*.c -o bin/main && ./bin/main"
