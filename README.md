@@ -5,24 +5,20 @@ Custom alias and emoticon linux terminal. The .bashrc file is a configuration fi
 *Just replace `.bashrc`* in your linux. You can copy and paste all off this code:
 
 ```
-cd ~ && git clone https://github.com/bukanspot/bashrc.git
+cd ~ && git clone https://github.com/bukanspot/sbash.git
 ```
 ```
-cp bash/build/.basha_secret.example bash/basha/.basha_secret && cp bash/build/.bashrc ~ && exec bash -l
+touch sbash/basha/.basha_secret && cp sbash/build/.bashrc ~ && exec bash -l
 ```
 To change emoticon, you can edit file in `emoticon`. For example:
 
 ```
-nano ~/bash/emoticon
-```
-atau menggunakan vim
-```
-vi ~/.bashrc
+nano ~/sbash/emoticon
 ```
 
 To edit alias edit file in `basha`. For example:
 ```
-cd ~/bash/basha/ && ls -l
+cd ~/sbash/basha/ && ls -l
 ```
 ```
 nano .basha_short
