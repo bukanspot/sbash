@@ -60,7 +60,7 @@ fi
 
 if [ "$color_prompt" = yes ]; then
     # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1="\[\e[32m\]\342\224\214\342\224\200 \`if [ \$? = 0 ]; then echo $emoticon_normal; else echo $emoticon_error; fi\` [\[\e[36m\]\w\[\e[32m\]]\n\[\e[32m\]\342\224\224\342\224\200\342\225\274\[\e[36m\] "
+    PS1="\[\e[32m\]\342\224\214\342\224\200 \`if [ \$? = 0 ]; then echo $emoticon_normal; else echo $emoticon_error; fi\` [\[\e[36m\]\w\[\e[32m\]]\[\033[31m\]\$(__git_ps1)\[\033[00m\]\n\[\e[32m\]\342\224\224\342\224\200\342\225\274\[\e[36m\] "
     PS2=" $emoticon_notcomplete > "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
