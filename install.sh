@@ -1,7 +1,7 @@
 mkdir ~/.sbash
 cp .bashrc ~/.sbash
 cp .bash_aliases ~/.sbash
-cp emoticon ~/.sbash
+cp emoticon.sh ~/.sbash
 cp basha ~/.sbash
 
 if [ -f ~/.bashrc ]; then
@@ -11,6 +11,6 @@ else
      echo "source ~/.sbash/.bashrc" > ~/.bashrc
 fi
 
-touch ~/.sbash/basha/.basha_secret
+touch ~/.sbash/basha/secret.sh
 
 exec bash -l

@@ -1,5 +1,5 @@
-if [ -f ~/bash/emoticon ]; then
-    source ~/bash/emoticon
+if [ -f ~/bash/emoticon.sh ]; then
+    source ~/bash/emoticon.sh
 fi
 
 # ~/.bashrc: executed by bash(1) for non-login shells.

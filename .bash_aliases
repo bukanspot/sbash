@@ -1,20 +1,20 @@
 # uncomment item you can use with remove hashtag
-if [ -f ~/bash/basha/.basha_secret ]; then
-    source ~/bash/basha/.basha_secret
+if [ -f ~/bash/basha/secret.sh ]; then
+    source ~/bash/basha/secret.sh
 fi
 
-if [ -f ~/bash/basha/.basha_short ]; then
-    source ~/bash/basha/.basha_short
+if [ -f ~/bash/basha/short.sh ]; then
+    source ~/bash/basha/short.sh
 fi
 
-if [ -f ~/bash/basha/.basha_laravel ]; then
-    source ~/bash/basha/.basha_laravel
+if [ -f ~/bash/basha/laravel.sh ]; then
+    source ~/bash/basha/laravel.sh
 fi
 
-if [ -f ~/bash/basha/.basha_git ]; then
-    source ~/bash/basha/.basha_git
+if [ -f ~/bash/basha/git.sh ]; then
+    source ~/bash/basha/git.sh
 fi
 
-if [ -f ~/bash/basha/.basha_c ]; then
-    source ~/bash/basha/.basha_c
+if [ -f ~/bash/basha/c.sh ]; then
+    source ~/bash/basha/c.sh
 fi
