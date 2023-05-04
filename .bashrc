@@ -1,5 +1,5 @@
 if [ -f ~/bash/emoticon ]; then
-    source ~/bash/.bash_aliases
+    source ~/bash/emoticon
 fi
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
