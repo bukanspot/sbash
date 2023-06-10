@@ -4,4 +4,4 @@ mvl() { mv "$1" "$2" && ll; }
 
 cls() { clear && ll; }
 
-cl() { cd "$1" && ll; }
+cl() { cd "$1" && clear && ll; }
